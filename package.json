@@ -1,0 +1,14 @@
+{
+  "name": "airshare-pilot-testcafe-framework",
+  "version": "1.0.0",
+  "description": "Testcafe sample framework",
+  "author": "Anand Krishnamohan Beena",
+  "license": "ISC",
+  "scripts": {
+    "test": "testcafe -c 2 chrome:headless ./tests/*-tests.js --reporter spec --selector-timeout 30000 --assertion-timeout 30000 --page-load-timeout 50000 --skip-js-errors"
+  },
+  "dependencies": {
+    "testcafe": "^1.20.0",
+    "testcafe-reporter-html": "^1.4.4"
+  }
+}
